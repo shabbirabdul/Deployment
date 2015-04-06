@@ -12,7 +12,8 @@ Created folder structure as follows:
 
 Created green and blue infrastructure:
 
-` var GREEN = 'http://localhost:3000';`
+` var GREEN = 'http://localhost:3000';`--hit
+
 `  var BLUE  = 'http://localhost:3001'; `
 
 Created blue and green redis instances:
