@@ -72,7 +72,7 @@ After that the traffic is toggled between BLUE and GREEN instances alternatively
   
         }```
 
-### Mirroring
+###Mirroring
 
 Mirroring will perform the same action on both BLUE and GREEN servers. I have used a flag which when set to 1 will do mirroring, other wise the action is performed on either BLUE or GREEN server.
 
@@ -108,5 +108,8 @@ Mirroring will perform the same action on both BLUE and GREEN servers. I have us
               	}
 
 		}``
+
+
+
 
 
