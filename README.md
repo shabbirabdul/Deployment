@@ -73,8 +73,7 @@ After that the traffic is toggled between BLUE and GREEN instances alternatively
           });
   
         }
-        
-        ```
+ ```
 
 ###Mirroring
 
@@ -112,7 +111,8 @@ Mirroring will perform the same action on both BLUE and GREEN servers. I have us
               	}
 
 		}
-		```
+		
+```
 
 
 
