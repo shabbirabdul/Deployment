@@ -12,15 +12,17 @@ Created folder structure as follows:
 
 Created green and blue infrastructure:
 
-```` var GREEN = 'http://localhost:3000';
+``` var GREEN = 'http://localhost:3000';
  
   var BLUE  = 'http://localhost:3001'; ```
 
 Created blue and green redis instances:
 
-``` var blue_redis = redis.createClient(6379, '127.0.0.1', {}) // client 1
- 
-  var green_redis = redis.createClient(6380, '127.0.0.1', {}) //client 2 ```
+``` 
+var blue_redis = redis.createClient(6379, '127.0.0.1', {}) // client 1
+
+var green_redis = redis.createClient(6380, '127.0.0.1', {}) //client 2 
+```
 
 
 ### Switching and Data migration
@@ -74,7 +76,7 @@ After that the traffic is toggled between BLUE and GREEN instances alternatively
 
 Mirroring will perform the same action on both BLUE and GREEN servers. I have used a flag which when set to 1 will do mirroring, other wise the action is performed on either BLUE or GREEN server.
 
-```  
+``
 	if(flag == 1)
   
               {
@@ -105,6 +107,6 @@ Mirroring will perform the same action on both BLUE and GREEN servers. I have us
   
               	}
 
-		}```
+		}``
 
 
